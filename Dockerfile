@@ -24,9 +24,9 @@ RUN 	apk update &&\
 	chown -R nobody /var/cache/pixelserv &&\
 	# Cleaning:
 	rm -rf /var/cache/pixelserv/pki /var/cache/apk/* &&\
-        apk del .build-deps
+       apk del .build-deps
 
 EXPOSE 443/tcp 80/tcp
 WORKDIR /var/cache/pixelserv
-ENTRYPOINT ["./pixelserv-tls", "-f"]
+ENTRYPOINT ["./pixelserv-tls","-f"]
 
