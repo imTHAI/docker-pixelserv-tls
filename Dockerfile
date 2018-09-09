@@ -1,7 +1,6 @@
-#FROM alpine:latest
-FROM local:alpine-backed
+FROM alpine:latest
 LABEL maintainer="imTHAI <imTHAI@leet.la>"
-LABEL description="Alpine compiling latest version of pixelsrv-tls."
+LABEL description="Compiling & running latest version of pixelsrv-tls under Alpine"
 
 ENV server pixelserv-tls
 
@@ -26,9 +25,7 @@ RUN 	apk update &&\
 	# Cleaning:
 	rm -rf /var/cache/pixelserv/pki /var/cache/apk/* &&\
         apk del .build-deps
-#git easy-rsa autoconf build-base openssl automake linux-headers
 
-VOLUME /var/cache/pixelserv
 EXPOSE 443/tcp 80/tcp
 WORKDIR /var/cache/pixelserv
 ENTRYPOINT ["./pixelserv-tls", "-f"]
