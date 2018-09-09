@@ -1,6 +1,6 @@
 FROM alpine:latest
 LABEL maintainer="imTHAI <imTHAI@leet.la>"
-LABEL description="Compiling & running latest version of pixelsrv-tls under Alpine"
+LABEL description="Compiling & running latest version of pixelserv-tls under Alpine"
 
 ENV server pixelserv-tls
 
