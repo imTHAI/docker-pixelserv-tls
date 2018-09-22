@@ -3,9 +3,9 @@ It will run the tiny pixelserv-tls web server which will respond to all requests
 
 More info here: https://github.com/kvic-z/pixelserv-tls
 
-`docker image pull trickyboy:pixelserv-tls`
+`docker image pull imthai/pixelserv-tls`
 
-`docker run -d --name pixelserv-tls -p 80:80 -p 443:443 trickyboy/pixelserv-tls`
+`docker run -d --name pixelserv-tls -p 80:80 -p 443:443 imthai/pixelserv-tls`
 
 
 A certificate is automaticaly generated at built step.
