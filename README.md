@@ -26,7 +26,7 @@ So you should proceed like that:
 `docker run -d` \
 ` --name pixelserv-tls` \
 ` -p 80:80 -p 443:443` \
-` -v ~/pixelserv:/var/cache/pixelserv`\ 
+` -v ~/pixelserv:/var/cache/pixelserv` \ 
 `imthai/pixelserv-tls`
 
 
