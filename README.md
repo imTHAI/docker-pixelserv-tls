@@ -14,7 +14,7 @@ So you should proceed like that:
 ` --name pixelserv-tls` \
 ` -p 80:80 -p 443:443` \
 `--restart always`\
-`imthai/pixelserv-tls`
+`imthai/pixelserv-tls`  
 OR 
 if you' r under linux, you can attach to the port of the hosts (best situation):  
 `docker run -d` \
@@ -38,7 +38,7 @@ if you' r under linux, you can attach to the port of the hosts (best situation):
 ` -p 80:80 -p 443:443` \
 ` -v ~/pixelserv:/var/cache/pixelserv` \
 `--restart always`\
-`imthai/pixelserv-tls`
+`imthai/pixelserv-tls`  
 OR 
 if you' r under linux, you can attach to the port of the hosts (best situation):  
 `docker run -d` \
