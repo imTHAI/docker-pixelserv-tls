@@ -18,8 +18,8 @@ So you should proceed like that:
 OR 
 if you' r under linux, you can attach to the port of the host machine (best situation):  
 `docker run -d \`  
-` --name pixelserv-tls \`
-` --net=host \`   
+` --name pixelserv-tls \`  
+` --net=host \`  
 `--restart always \`  
 `imthai/pixelserv-tls`
 
