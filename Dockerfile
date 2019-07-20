@@ -10,7 +10,7 @@ RUN     apk update \
         && apk add --no-cache openssl-dev \
         && mkdir -p /var/cache/pixelserv \
         && cd /var/cache/pixelserv \
-        && git clone https://github.com/kvic-z/${server}.git \
+        && git clone https://github.com/kvic-z/${server}.git . \
         && autoreconf -i \
         && ./configure \
         && make \
