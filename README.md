@@ -35,7 +35,7 @@ if you' r under linux, you can attach to the port of the host machine (best situ
 5) Then you run again the container, using this time a specific volume pointing to the folder where you've put the certs:  
 `docker run -d \`  
 ` --name pixelserv-tls \`   
-` -p 80:80 -p 443:443 \`
+` -p 80:80 -p 443:443 \`  
 `-v ~/pixelserv:/var/cache/pixelserv \  `  
 `--restart always \`  
 `imthai/pixelserv-tls`  
@@ -43,7 +43,7 @@ OR
 if you' r under linux, you can attach to the port of the host machine (best situation):  
 `docker run -d \`  
 ` --name pixelserv-tls \`  
-` --net=host \` 
+` --net=host \`  
 `-v ~/pixelserv:/var/cache/pixelserv \  `  
 `--restart always \`  
 `imthai/pixelserv-tls`
