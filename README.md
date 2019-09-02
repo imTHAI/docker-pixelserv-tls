@@ -36,7 +36,7 @@ if you' r under linux, you can attach to the port of the host machine (best situ
 `docker run -d \`  
 ` --name pixelserv-tls \`   
 ` -p 80:80 -p 443:443 \`
-`-v ~/pixelserv:/var/cache/pixelserv \  `
+`-v ~/pixelserv:/var/cache/pixelserv \  `  
 `--restart always \`  
 `imthai/pixelserv-tls`  
 OR 
@@ -44,7 +44,7 @@ if you' r under linux, you can attach to the port of the host machine (best situ
 `docker run -d \`  
 ` --name pixelserv-tls \`  
 ` --net=host \` 
-`-v ~/pixelserv:/var/cache/pixelserv \  `
+`-v ~/pixelserv:/var/cache/pixelserv \  `  
 `--restart always \`  
 `imthai/pixelserv-tls`
 
