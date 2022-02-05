@@ -7,7 +7,6 @@ ENV server pixelserv-tls
 RUN     apk update \
         && apk upgrade \
         && apk add --no-cache --virtual .build-deps git autoconf build-base openssl automake linux-headers \
-       	&& apk add easy-rsa \
         && apk add --no-cache openssl-dev \
         && mkdir -p /var/cache/pixelserv \
         && cd /var/cache/pixelserv \
