@@ -51,3 +51,6 @@ if you' r under linux, you can attach to the port of the host machine (best situ
 
 # Infos:
 Shell access whilst the container is running: `docker exec -it pixelserv-tls /bin/sh`
+
+
+<a href="https://www.buymeacoffee.com/pbear" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
